@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  line-height: normal;
 }
+:root {
+  /* fonts */
+  --font-archivo: Archivo;
+  --font-roboto: Roboto;
+  --font-poppins: Poppins;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  /* font sizes */
+  --font-size-3xs: 10px;
+  --font-size-2xs: 17.19px;
+  --font-size-xs: 24.06px;
+  --font-size-sm: 27.5px;
+  --font-size-base: 34.37px;
+  --font-size-lg: 35.24px;
+  --font-size-xl: 41.24px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  /* Colors */
+  --color-ghostwhite: #eef0fa;
+  --color-black: #000;
+  --color-darkslateblue-100: #383874;
+  --color-steelblue: #5a5a89;
+  --color-white: #fff;
+  --color-gray: #171725;
+  --color-limegreen: #00b929;
+  --color-lightslategray: #8484a0;
+  --color-lightcoral: #ff708b;
+  --color-lavender: #dbdff1;
 
-.App-link {
-  color: #61dafb;
-}
+  /* Gaps */
+  --gap-2xs: 1.72px;
+  --gap-xs: 3.44px;
+  --gap-sm: 6.87px;
+  --gap-md: 20.62px;
+  --gap-lg: 30.93px;
+  --gap-xl: 44.68px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  /* Paddings */
+  --padding-sm: 10.311111450195312px;
+  --padding-md: 17.185184478759766px;
+  --padding-lg: 54.992591857910156px;
+
+  /* border radiuses */
+  --br-sm: 17.19px;
+  --br-md: 27.5px;
+  --br-lg: 171.85px;
 }
